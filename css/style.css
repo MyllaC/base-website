@@ -92,7 +92,7 @@ a {
   justify-content: center;
   align-items: center;
   color: var(--text-color);
-  background: url('/assets/showcase.jpg') no-repeat center center/cover;
+  background: url('../assets/showcase.jpg') no-repeat center center/cover;
 
   /* overlay */
   background-color: rgba(0, 0, 0, 0.5);
