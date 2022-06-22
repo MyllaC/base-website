@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 #navbar {
   height: 180px;
   position: initial;
@@ -19,21 +21,24 @@
   border-bottom: 1px solid #333;
 }
 
+/* SHOWCASE */
+
 #showcase {
   height: 80vh;
   padding: 0 30px;
 }
 
-#companies-container {
+/* CLIENTS */
+
+#clients-container {
   grid-template-columns: repeat(2, 1fr);
 }
 
-
-.company {
+.client {
   width: 50%;
 }
 
-/* Features */
+/* FEATURES */
 #features-container {
   grid-template-columns: 1fr;
 }
@@ -42,12 +47,12 @@
   margin: 20px 0;
 }
 
-/* Product */
+/* PRODUCT */
 #product-container {
   flex-direction: column;
 }
 
-.items {
+#items {
   width: 90%;
 }
 
@@ -57,7 +62,7 @@
   text-align: center;
 }
 
-/* Testimonials */
+/* TESTIMONIALS */
 .testimonial {
   flex-direction: column;
   text-align: center;
@@ -69,6 +74,8 @@
   text-align: center;
 }
 
+/* GALLERY */
+
 #gallery-container {
   grid-template-columns: 1fr;
 }
@@ -76,4 +83,3 @@
 .gallery-image {
   width: 100%;
 }
-
